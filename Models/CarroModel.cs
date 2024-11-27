@@ -9,10 +9,10 @@ namespace SistemaVeiculos.Models
     {
     public int Id { get; set; }
     public string Marca { get; set; }
-    public string Modelo { get; set; }
-    public decimal PrecoDiario { get; set; }
+    public string Modelo { get; set; }    
     public string ImagemUrl { get; set; } // URL da imagem
-    public int QuantidadeDisponivel { get; set; }
+    public string Status { get; set; }
+    public string Placa { get; set; }
     }
 
     

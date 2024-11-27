@@ -1,0 +1,39 @@
+﻿@{
+    ViewData["Title"] = "Rastreamento";
+}
+
+<h2>Rastreamento do Veículo</h2>
+
+<p>Verifique abaixo o status do seu veículo alugado:</p>
+
+<table border="1" style="width: 50%; text-align: left; border-collapse: collapse;">
+    <thead>
+        <tr>
+            <th>Informação</th>
+            <th>Detalhe</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Status do veículo:</td>
+            <td>@ViewData["Mensagem"]</td>
+        </tr>
+        <tr>
+            <td>Placa:</td>
+            <td>ABC-1234</td>
+        </tr>
+        <tr>
+            <td>Modelo:</td>
+            <td>Ford Mustang</td> 
+        </tr>
+        <tr>
+            <td>Localização atual:</td>
+            <td>Xique-Xique/Bahia</td> 
+        <tr>
+            <td>Data de devolução:</td>
+            <td>25/11/2024</td>
+        </tr>
+    </tbody>
+</table>
+
+<a href="/Home" style="display: inline-block; margin-top: 20px; text-decoration: none; background-color: #007BFF; color: white; padding: 10px 15px; border-radius: 5px;">Voltar para Página Inicial</a>

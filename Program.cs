@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using SistemaVeiculos.Data;
+using Microsoft.Extensions.DependencyInjection;
+using SistemaVeiculos.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +10,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddControllers();
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AluguelContext>(opt => opt.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
+builder.Services.AddScoped<ICarroRepository, CarroRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

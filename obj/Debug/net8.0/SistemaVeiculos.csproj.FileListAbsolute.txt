@@ -261,3 +261,4 @@ C:\workspace\C#\SistemaVeiculos\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.
 C:\workspace\C#\SistemaVeiculos\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\workspace\C#\SistemaVeiculos\obj\Debug\net8.0\SistemaVeiculos.csproj.AssemblyReference.cache
 C:\workspace\C#\SistemaVeiculos\obj\Debug\net8.0\SistemaV.07B4942B.Up2Date
+C:\workspace\C#\SistemaVeiculos\obj\Debug\net8.0\SistemaVeiculos.sourcelink.json

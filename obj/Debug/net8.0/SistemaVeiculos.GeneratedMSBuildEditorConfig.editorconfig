@@ -26,12 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\workspace\C#\SistemaVeiculos
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Contato.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxDb250YXRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Feedback.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxGZWVkYmFjay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Rastrear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxSYXN0cmVhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/workspace/C\#/SistemaVeiculos/Views/Aluguel/Sobre.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWx1Z3VlbFxTb2JyZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/workspace/C\#/SistemaVeiculos/Views/Home/Index.cshtml]

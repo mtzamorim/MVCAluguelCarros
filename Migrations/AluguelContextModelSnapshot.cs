@@ -42,11 +42,13 @@ namespace SistemaVeiculos.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
-                    b.Property<decimal>("PrecoDiario")
-                        .HasColumnType("decimal(65,30)");
+                    b.Property<string>("Placa")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
-                    b.Property<int>("QuantidadeDisponivel")
-                        .HasColumnType("int");
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 
@@ -69,6 +71,9 @@ namespace SistemaVeiculos.Migrations
 
                     b.Property<DateTime>("DataInicio")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<decimal>("PrecoDiario")
+                        .HasColumnType("decimal(65,30)");
 
                     b.Property<string>("Usuario")
                         .IsRequired()

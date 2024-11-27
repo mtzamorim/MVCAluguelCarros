@@ -11,6 +11,7 @@ namespace SistemaVeiculos.Models
     public int CarroId { get; set; }
     public CarroModel Carro { get; set; }
     public string Usuario { get; set; }
+    public decimal PrecoDiario { get; set; }
     public DateTime DataInicio { get; set; }
     public DateTime DataFim { get; set; }
 }
